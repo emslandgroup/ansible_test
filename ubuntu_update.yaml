@@ -1,5 +1,5 @@
 ---
-#prueft Ubuntu Server auf Updates, installiert diese und fuehrt einen Neustart durch, falls noetig
+#prueft Ubuntu Server auf Updates, installiert diese und fuehrt einen Neustart durch, falls nötig
 - hosts: ubuntuserver
   become: true
   become_user: root
